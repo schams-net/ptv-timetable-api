@@ -1,0 +1,13 @@
+{
+	"name": "schams-net/ptv-timetable-api",
+	"description": "Simple demo application to access the PTV timetable API (Public Transport Victoria)",
+	"require": {
+		"symfony/dotenv": "*",
+		"guzzlehttp/guzzle": "~6.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"SchamsNet\\PtvTimetableApi\\": "Classes/"
+		}
+	}
+}
